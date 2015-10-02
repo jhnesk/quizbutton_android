@@ -16,6 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.NewGameActivity"
+            android:label="@string/title_activity_new_game" >
+        </activity>
+        <activity
+            android:name=".ui.JoinGameActivity"
+            android:label="@string/title_activity_join_game" >
+        </activity>
+        <activity
+            android:name=".ui.GameActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
     </application>
 
 </manifest>
