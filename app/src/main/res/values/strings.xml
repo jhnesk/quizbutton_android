@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Quiz Button</string>
+
+    <string name="settings">Settings</string>
+    <string name="new_game">New game</string>
+    <string name="join_game">Join</string>
 </resources>
